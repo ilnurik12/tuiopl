@@ -1,0 +1,5 @@
+peration_menu.grid(row=2, column=0, columnspan=2)
+
+# Кнопка вычисления
+button_calculate = tk.Button(window, text="Вычислить", command=calculate)
+button_calculate.grid(row=3, column=0, columnspan=2)
